@@ -1,14 +1,28 @@
-# Quiz Game in C
+# Number Guessing Game in C
 
-A simple mini project developed in C language using structure.
+A console-based number guessing game developed in C.
 
-Features:
-- Quiz questions for users
+The program generates a random number, and the player tries to guess it within a limited number of attempts. It includes different difficulty levels, smart hints, and score calculation based on performance.
+
+## Features
+- Easy, Medium, and Hard difficulty levels
+- Random number generation
+- Input validation for correct number entry
+- Hint system (Too High / Too Low + hot/cold hints)
 - Score calculation
-- Menu based interaction
+- Play again option
 
-Concepts used:
-- Structure
+## Concepts Used
+- Structures of modular programming
 - Functions
 - Loops
-- Conditions
+- Conditional statements
+- Random number generation (`rand()`)
+- Input handling
+
+## How to Run
+1. Compile the program:
+   gcc mini.c -o game
+
+2. Run:
+   ./game
